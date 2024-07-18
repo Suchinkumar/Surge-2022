@@ -1,0 +1,33 @@
+{
+  "name": "surge2022",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "@vercel/analytics": "^0.1.3",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "iron-session": "^6.3.1",
+    "nanoid": "^4.0.0",
+    "next": "^12.3.4",
+    "nextjs-progressbar": "^0.0.14",
+    "nodemailer": "^6.7.8",
+    "prisma": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-pin-input": "^1.3.0",
+    "react-qr-code": "^2.0.8",
+    "reactstrap": "^9.1.3"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "sass": "^1.53.0"
+  }
+}
